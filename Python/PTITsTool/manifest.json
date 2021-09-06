@@ -1,0 +1,15 @@
+{
+    "name": "PTITsTool",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "A Chromium extension to help PTITer",
+    "icons": {
+        "16": "icons/PTITsTool16x16.png",
+        "32": "icons/PTITsTool32x32.png",
+        "48": "icons/PTITsTool48x48.png",
+        "128": "icons/PTITsTool128x128.png"
+    },
+    "browser_actions": {
+        "default_popup": "popup/popup.html"
+    }
+}

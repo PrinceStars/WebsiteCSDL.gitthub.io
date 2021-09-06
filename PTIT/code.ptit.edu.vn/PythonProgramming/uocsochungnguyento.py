@@ -3,9 +3,7 @@ t = int(input())
 
 
 def UCLN(a, b):
-    if b == 0:
-        return a
-    return UCLN(b, a % b)
+    return a if b == 0 else UCLN(b, a % b)
 
 
 def checkPrime(a):
