@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.product-compartment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-compartment span {
+    display: block;
+    margin-right: 20px;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+hr {
+    display: block;
+    background-color: red;
+}
