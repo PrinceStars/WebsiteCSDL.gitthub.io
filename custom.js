@@ -52,4 +52,30 @@ $(document).ready(function() {
             check = 0
         }
     });
+    // filter
+    var t = $(".box-filter").innerWidth() + 20
+    var h = $(".close-box-filter").innerWidth() / 2 + t / 2
+    $(".box-filter").css("right", "-" + t + "px")
+    $(".close-box-filter").css("right", "-" + h + "px")
+    $(".btn-filter").click(function() {
+        var t = $(".box-filter").innerWidth()
+        var h = $(".close-box-filter").innerWidth()
+        $(".box-filter").animate({
+            right: 20 + "px"
+        }, "slow")
+        $(".close-box-filter").animate({
+            right: t / 2 - h / 2 + 21 + "px"
+        }, "slow")
+    });
+    // close-filter
+    $(".btn:not(.btn-filter)").click(function() {
+        var t = $(".box-filter").innerWidth() + 10
+        var h = $(".close-box-filter").innerWidth() / 2 + t / 2
+        $(".box-filter").animate({
+            right: "-" + t + "px"
+        }, "slow")
+        $(".close-box-filter").animate({
+            right: "-" + t / 2 + "px"
+        }, "slow")
+    });
 });

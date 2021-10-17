@@ -17,6 +17,15 @@
     white-space: normal;
 }
 
+#product-category .product-item .btn {
+    background-color: orange;
+    color: white;
+    height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 30px;
+}
+
 #product-category .product-item span {
     color: red;
 }
@@ -37,7 +46,7 @@
 
 .utilities-item {
     display: block;
-    background-color: rgb(255, 87, 115);
+    background-color: #c69a39;
     padding: 2px;
     border-radius: 30px 0px 0px 30px;
     margin-top: 5px;
@@ -53,7 +62,7 @@
     vertical-align: middle;
     border: 1px solid white;
     background-color: white;
-    color: rgb(255, 87, 115);
+    color: #c69a39;
 }
 
 .utilities-item span {

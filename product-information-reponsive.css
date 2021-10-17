@@ -1,14 +1,7 @@
-@media screen and (max-width: 992px) {
-    .box-filter {
-        top: 150px;
-    }
-    .close-box-filter {
-        top: 360px;
-    }
-}
+@media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
-    .main-body {
+    #product-infor {
         max-width: 768px;
     }
     .row {

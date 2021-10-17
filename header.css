@@ -1,5 +1,5 @@
 header {
-    background-color: #303e5c;
+    background-color: #000066;
 }
 
 .heading-sub {
@@ -16,40 +16,25 @@ header {
 }
 
 #nav-menu .nav-item {
-    margin: 7px 0px;
-    border-right: 1px solid #b30f26;
+    margin: 2px 0px;
+    padding: 5px 5px;
+    border-right: 1px solid #ddac41;
 }
 
-#nav-menu .nav-item:hover {
-    background-color: #e4596e;
-}
-
-#nav-menu .dropdown-menu {
-    padding: 0px 3px;
-    box-shadow: 2px 2px 8px rgb(105, 105, 105);
-}
-
-#nav-menu .dropdown-item {
-    color: #636363;
-}
-
-#nav-menu .dropdown-item:hover {
-    color: #b30f26;
-    background-color: white;
-}
-
-#nav-menu .dropdown-item {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+#nav-menu .nav-item:hover,
+#nav-menu .nav-item:active,
+#nav-menu .nav-item:focus-within {
+    background-color: #e6bf6d;
 }
 
 .heading-menu {
-    background-color: #d83950;
+    background-color: #c69a39;
     /* height: 40px; */
 }
 
 .close-heading-menu {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.137);
+    background-color: rgba(0, 0, 0, 0.452);
     display: block;
     z-index: 9;
     position: fixed;
@@ -58,10 +43,10 @@ header {
     display: none;
 }
 
-.heading-menu .category-menu {
+.category-menu {
     width: 100%;
     height: 50px;
-    background-color: #303e5c;
+    background-color: #000066;
     display: none;
     padding-left: 15px;
     padding-right: 15px;

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="reponsive-header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="product-information.css">
+    <link rel="stylesheet" href="product-information-reponsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>WebsiteCSDL</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="heading-sub container">
+            <div class="row">
+                <div class="logo-web col-lg-1 col-3">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="input-group search-web col-lg-5 col-6">
+                    <input type="search" id="form-search" class="form-control" placeholder="Search" />
+                    <button type="button" class="btn btn-search">
+                    <i class="fas fa-search"></i>
+                </button>
+                </div>
+                <div class="car-web col-lg-2 col-1">
+                    <button class="btn btn-car">
+                        <i class="fas fa-shopping-cart"></i> 
+                        <span>Giỏ hàng</span>
+                    </button>
+                </div>
+                <div class="user-infor col-lg-4 row">
+                    <div class="col-3">
+                        <a href="#">Thông báo</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">Lịch sử mua hàng</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">Hỗ trợ</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">Member</a>
+                    </div>
+                </div>
+                <div class="btn-menu col-2">
+                    <button class="btn">
+                        <i class="fas fa-bars"></i>
+                        <span>Menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid heading-menu">
+        <div class="category-menu">
+            <span>Danh mục</span>
+        </div>
+        <nav class="container navbar navbar-expand-lg">
+            <ul class="navbar-nav" id="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SAM SUNG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NOKIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">XAOMI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">OPPO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VIVO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">APPLE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VSMART</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ONEPLUS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">REALME</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="close-heading-menu"></div>
+    <!-- product-information -->
+
+    <div id="product-infor" class="container">
+        <div class="name-product">
+            <span>Xaomi Redmi Note 10</span>
+        </div>
+        <div class="row">
+            <div class="img-product col-md-4 col">
+                <img src="./images/sp1.PNG" alt="">
+                <div class="list-img-product">
+                    <!-- <div><img src="./images/sp1.1.PNG" alt=""></div>
+                    <div><img src="./images/sp1.PNG" alt=""></div>
+                    <div><img src="./images/sp1.PNG" alt=""></div>
+                    <div><img src="./images/sp1.PNG" alt=""></div> -->
+                </div>
+            </div>
+            <div class="product-price col-lg-5 col-md col-12">
+                <table>
+                    <tr class="sold-product">
+                        <td>Đã bán</td>
+                        <td>Ghi số sản phẩm đã bán được</td>
+                    </tr>
+                    <tr class="assess-product">
+                        <td>
+                            <a href="#">Đánh giá</a>
+                        </td>
+                        <td>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr class="status-product">
+                        <td>Tình trạng</td>
+                        <td>Còn hàng</td>
+                    </tr>
+                </table>
+                <div class="product-price-sub">
+                    <span>100.000</span>đ
+                </div>
+                <!-- Thông tin chọn: bộ nhớ,màu sắc,... -->
+                <div>Chọn loại của sản phẩm</div>
+                <!-- end-Thông tin chọn: bộ nhớ,màu sắc,...  -->
+                <div class="promotion-product">
+                    <span>Điền nội dung khuyến mãi</span>
+                </div>
+                <div class="buy-product row">
+                    <div class="col-6">
+                        <button class="btn btn-block">
+                            <i class="fas fa-shopping-cart"></i>
+                            Thêm vào giỏ hàng
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-block">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="related-products col-lg-3 d-lg-block d-none">
+                <div>Sản phẩm thương tự</div>
+                <div>
+                    <div class="product-price-infor row">
+                        <a href="#"><img src="./images/sp1.PNG" alt=""></a>
+                        <div class="col">
+                            <h5>Tên sản phẩm</h5>
+                            <span>100.000</span><span>đ</span> <br>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="product-price-infor row">
+                        <a href="#"><img src="./images/sp1.PNG" alt=""></a>
+                        <div class="col">
+                            <h5>Tên sản phẩm</h5>
+                            <span>100.000</span><span>đ</span> <br>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid "></footer>
+    <script src="custom.js "></script>
+</body>
+
+</html>
